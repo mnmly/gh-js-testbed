@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "d3": "^5.16.0"
+  },
+  "script": {
+    "run": "parcel --global global index.html",
+    "build": "parcel build --no-content-hash --global global index.html"
+  }
+}
